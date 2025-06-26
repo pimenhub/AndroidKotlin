@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
                     }
                     numero.toDouble() < 0 -> {
                         txt.text = "NEGATIVO"
-                        txt.setTextColor(Color.RED)
+                        txt.setTextColor(getColor(R.color.rojo))
                     }
                     else -> {
                         txt.text = "ES IGUAL A 0"

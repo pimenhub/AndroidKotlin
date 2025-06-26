@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AppActividadUno</string>
+    <string name="bienvenida">Bienvenido a mi App</string>
 </resources>

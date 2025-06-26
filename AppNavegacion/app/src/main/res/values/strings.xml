@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppNavegacion</string>
+    <string name="tituloApp">Conoce tu Edad</string>
+    <string name="hint1">Ingresa tu nombre</string>
+    <string name="hint2">Ingresa tu fecha de nacimiento</string>
+    <string name="botonConocer">Conoce tu Edad</string>
+</resources>
