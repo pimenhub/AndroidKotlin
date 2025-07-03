@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("date",edad)
             //Se apertura la otra actividad y se envian los datos
             startActivity(intent)
+
         }
     }
     fun calcularEdad(fechaNacimiento: String) : String{

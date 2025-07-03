@@ -1,6 +1,7 @@
-package com.jpimentel.appnavegacion
+package com.jpimentel.appnavegaciondos
 
 import android.os.Bundle
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -18,10 +19,18 @@ class MainActivity2 : AppCompatActivity() {
             insets
         }
         //-----------------------------------------------------------------------------------------
-        val txtNombre = findViewById<TextView>(R.id.txtNombre)
-        val txtEdad = findViewById<TextView>(R.id.txtEdad)
+        val imgResultado = findViewById<ImageView>(R.id.imgResultado)
+        val txtResultado = findViewById<TextView>(R.id.txtResultado)
 
-        txtNombre.text = "Hola, " + intent.getStringExtra("name")
-        txtEdad.text = "Tienes " + intent.getStringExtra("date") + " años"
+        val resultadoNota = intent.getBooleanExtra("resultadoNota",false)
+
+        if(resultadoNota){
+            imgResultado.setImageResource(R.drawable.aprobado)
+            txtResultado.text = "APROBADO"
+        }
+        else{
+            imgResultado.setImageResource(R.drawable.reprobado)
+            txtResultado.text = "REPROBADO"
+        }
     }
 }
