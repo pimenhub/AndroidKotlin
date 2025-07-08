@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AppPreferencias</string>
+    <string name="stringIngresar">Ingresa los siguientes datos:</string>
+    <string name="stringVisualizar">Datos Registrados:</string>
+    <string name="hint1">Ingresa tu nombre</string>
+    <string name="hint2">Ingresa tu apellido</string>
+    <string name="hint3">Ingresa tu edad</string>
+    <string name="btn1">Guardar</string>
+    <string name="btn2">Borrar</string>
+    <string name="btn3">Visualizar</string>
+    <string name="puntos">...</string>
+</resources>
